@@ -38,12 +38,15 @@ body {
 
 
 @media (max-width: 1199px) and (min-width: 769px) {
+  .body{
   display: flex;
   flex-wrap: wrap;
+  }
 }
 
 code {
   color: white;
   font-family: 'Open Sans', Arial, sans-serif;
   text-decoration: underline;
+
 }
