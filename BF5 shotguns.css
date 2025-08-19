@@ -1,0 +1,49 @@
+
+body {
+  background-color: #061621;
+  color: #9aafc5;
+  font-family: 'Open Sans', Arial, sans-serif;
+}
+
+.nav-link {
+  padding-top: 5px;
+  display: block;
+}
+
+#navbar {
+  position: fixed;
+  display: block;
+  background-color: rgb(4, 13, 34);
+  bottom: 0px;
+  top: 2px;
+  z-index: 200;
+  padding-top: 5px;
+  max-width: 190px;
+}
+
+.stats {
+
+  display: block;
+  width: auto;
+  border-bottom: 5px solid #9aafc5;
+}
+
+.main-section {
+    float: left;
+  margin-left: 200px;
+  margin-right: 380px;
+  min-width: 400px;
+  max-width: auto;
+}
+
+
+@media (max-width: 1199px) and (min-width: 769px) {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+code {
+  color: white;
+  font-family: 'Open Sans', Arial, sans-serif;
+  text-decoration: underline;
+}
